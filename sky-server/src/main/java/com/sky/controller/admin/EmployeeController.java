@@ -124,7 +124,4 @@ public class EmployeeController {
         employeeService.update(employeeDTO);
         return Result.success();
     }
-    /**
-     * 分类管理功能
-     */
 }
