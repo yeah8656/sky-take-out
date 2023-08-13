@@ -20,7 +20,7 @@ import java.util.List;
  * @date 2023/8/12
  * 套餐管理
  */
-@Api("套餐管理")
+@Api(tags = "套餐管理")
 @RequestMapping("/admin/setmeal")
 @RestController
 @Slf4j
